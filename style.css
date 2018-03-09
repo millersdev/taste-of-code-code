@@ -1,3 +1,10 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 /* HEADER */
 header{
     background: #cacaca;
@@ -66,4 +73,37 @@ header p{
 }
 .message.yours p .time{
     color: grey;
+}
+
+/* INPUT */
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(125, 198, 240);
+
+}
+
+footer input{
+    height: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+footer input[type="text"]{
+    width:70%;
+    background-color: lightblue;
+    outline: none;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+footer input[type="submit"]{
+    width:30%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
