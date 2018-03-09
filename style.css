@@ -5,18 +5,27 @@ html {
     box-sizing: inherit;
 }
 
+body{
+    background: url("wa-background.jpg")
+}
+
 /* HEADER */
 header{
-    background: #cacaca;
+    background: #f3f3f3;
     padding: 10px;
 }
 
 header h1{
     margin: 0;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 24px;
 }
 
 header p{
     margin: 0;
+    font-family: Arial;
+    font-size: 14px;
 }
 
 /* MAIN AREA (MESSAGES) */
